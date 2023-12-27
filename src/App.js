@@ -2,7 +2,7 @@ import "./App.css";
 import monitor from "./assets/monitor.jpeg";
 import camera from "./assets/camerajpeg.jpeg";
 import ipod from "./assets/ipod.jpeg";
-import desktop from "./assets/desktop.jpeg";
+// import desktop from "./assets/desktop.jpeg";
 
 import { BsStarFill, BsStar } from "react-icons/bs";
 import { FaArrowsRotate } from "react-icons/fa6";
@@ -1103,7 +1103,7 @@ const App = () => {
         </div>
       </div>
       {/* for Slider 2 */}
-      <div className="w-[700px]">
+      <div className="lg:w-[700px]">
         
         <div>
         <div className="flex py-2 gap-2 pr-6">
@@ -1150,7 +1150,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1182,7 +1182,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1214,7 +1214,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1246,7 +1246,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1278,7 +1278,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1310,9 +1310,9 @@ const App = () => {
                   All Super fast style Regular
                 </h1>
 
-                <div className="text-2xl font-bold text-amber-400">
+                <div className="text-2xl font-bold text-amber-400 ">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1344,7 +1344,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1376,7 +1376,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1408,7 +1408,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1440,7 +1440,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1474,7 +1474,71 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
+                    $83.00
+                  </del>
+                </div>
+              </div>
+            </div>
+          <div className= "text-left p-4 rounded-lg lg:flex items-center justify-center gap-4">
+              <img className="h-32 w-40 rounded-lg" src={monitor} alt="" />
+              <div>
+                <div className="flex gap-1 my-2">
+                  <p>
+                    <BsStar />
+                  </p>
+                  <p>
+                    <BsStar />
+                  </p>
+                  <p>
+                    <BsStar />
+                  </p>
+                  <p>
+                    <BsStar />
+                  </p>
+                  <p className="">
+                    <BsStar />
+                  </p>
+                </div>
+                <h1 className="text-2xl font-semibold my-3 inline-block">
+                  All Super fast style Regular
+                </h1>
+
+                <div className="text-2xl font-bold text-amber-400">
+                  $80.00
+                  <del className="text-slate-300 font-normal text-xl ps-2">
+                    $83.00
+                  </del>
+                </div>
+              </div>
+            </div>
+          <div className= "text-left p-4 rounded-lg lg:flex items-center justify-center gap-4">
+              <img className="h-32 w-40 rounded-lg" src={monitor} alt="" />
+              <div>
+                <div className="flex gap-1 my-2">
+                  <p>
+                    <BsStar />
+                  </p>
+                  <p>
+                    <BsStar />
+                  </p>
+                  <p>
+                    <BsStar />
+                  </p>
+                  <p>
+                    <BsStar />
+                  </p>
+                  <p className="">
+                    <BsStar />
+                  </p>
+                </div>
+                <h1 className="text-2xl font-semibold my-3 inline-block">
+                  All Super fast style Regular
+                </h1>
+
+                <div className="text-2xl font-bold text-amber-400">
+                  $80.00
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1538,71 +1602,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
-                    $83.00
-                  </del>
-                </div>
-              </div>
-            </div>
-          <div className= "text-left p-4 rounded-lg lg:flex items-center justify-center gap-4">
-              <img className="h-32 w-40 rounded-lg" src={monitor} alt="" />
-              <div>
-                <div className="flex gap-1 my-2">
-                  <p>
-                    <BsStar />
-                  </p>
-                  <p>
-                    <BsStar />
-                  </p>
-                  <p>
-                    <BsStar />
-                  </p>
-                  <p>
-                    <BsStar />
-                  </p>
-                  <p className="">
-                    <BsStar />
-                  </p>
-                </div>
-                <h1 className="text-2xl font-semibold my-3 inline-block">
-                  All Super fast style Regular
-                </h1>
-
-                <div className="text-2xl font-bold text-amber-400">
-                  $80.00
-                  <del className="text-slate-300 font-normal text-xl">
-                    $83.00
-                  </del>
-                </div>
-              </div>
-            </div>
-          <div className= "text-left p-4 rounded-lg lg:flex items-center justify-center gap-4">
-              <img className="h-32 w-40 rounded-lg" src={monitor} alt="" />
-              <div>
-                <div className="flex gap-1 my-2">
-                  <p>
-                    <BsStar />
-                  </p>
-                  <p>
-                    <BsStar />
-                  </p>
-                  <p>
-                    <BsStar />
-                  </p>
-                  <p>
-                    <BsStar />
-                  </p>
-                  <p className="">
-                    <BsStar />
-                  </p>
-                </div>
-                <h1 className="text-2xl font-semibold my-3 inline-block">
-                  All Super fast style Regular
-                </h1>
-
-                <div className="text-2xl font-bold text-amber-400">
-                  $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1636,7 +1636,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1668,7 +1668,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1700,7 +1700,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1732,7 +1732,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
@@ -1764,7 +1764,7 @@ const App = () => {
 
                 <div className="text-2xl font-bold text-amber-400">
                   $80.00
-                  <del className="text-slate-300 font-normal text-xl">
+                  <del className="text-slate-300 font-normal text-xl ps-2">
                     $83.00
                   </del>
                 </div>
