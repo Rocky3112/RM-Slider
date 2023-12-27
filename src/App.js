@@ -19,7 +19,8 @@ const App = () => {
   const [isHovered4, setIsHovered4] = useState(false);
   return (
     <div className="">
-      <div className="carousel w-full my-8">
+      {/* for slider 1 */}
+      <div className="carousel w-full my-20">
         <div id="slide1" className="carousel-item w-full h-[100vh] relative">
           <div className="grid lg:grid-cols-2 gap-5  ">
             <div
@@ -1101,21 +1102,22 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="w-[600px]">
+      {/* for Slider 2 */}
+      <div className="w-[700px]">
         
         <div>
         <div className="flex py-2 gap-2 pr-6">
           <div className="flex justify-end w-full py-2 gap-2">
-          <a href="#item1" className="btn btn-xs">
+          <a href="#item1" className="btn btn-xs hover:bg-orange-500">
             1
           </a>
-          <a href="#item2" className="btn btn-xs">
+          <a href="#item2" className="btn btn-xs hover:bg-orange-500">
             2
           </a>
-          <a href="#item3" className="btn btn-xs">
+          <a href="#item3" className="btn btn-xs hover:bg-orange-500">
             3
           </a>
-          <a href="#item4" className="btn btn-xs">
+          <a href="#item4" className="btn btn-xs hover:bg-orange-500">
             4
           </a>
           </div>
