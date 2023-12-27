@@ -1,0 +1,19 @@
+.hovered .overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for the desired darkness */
+    z-index: 1;
+    transition: opacity 0.3s ease; /* Add transition for a smooth effect */
+  }
+  
+  .hovered.visible .overlay {
+    opacity: 1;
+  }
+  
+  .overlay {
+    opacity: 0; /* Initially hidden */
+  }
