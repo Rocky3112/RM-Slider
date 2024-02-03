@@ -19,6 +19,7 @@ const App = () => {
   const [isHovered4, setIsHovered4] = useState(false);
   return (
     <div className="">
+      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, minima sed veritatis cum eum quod laborum voluptate eligendi, porro molestias quia deleniti quidem ipsam! Fugiat aut odio iure tenetur cum?</h1>
       {/* for slider 1 */}
       <div className="carousel w-full my-20">
         <div id="slide1" className="carousel-item w-full h-[100vh] relative">
